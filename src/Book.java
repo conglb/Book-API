@@ -47,4 +47,9 @@ public class Book implements Serializable {
     public void setISBN(String ISBN) {
         this.ISBN = ISBN;
     }
+
+    public String toString() {
+        return "Id: " + getId() + '\n' + "Title: " + getTitle() + '\n' + getAuthor()
+        + '\n' + "ISBN: " + getISBN() + '\n';
+     }
 }

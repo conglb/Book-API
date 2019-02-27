@@ -13,3 +13,11 @@ Client send `insertBook(Book book)` to add a book.
 ### Client
 - interface BookShelfInterface
 - class Client
+## Run
+~~~~
+javac Server.java
+javac Client.java
+rmiregistry
+java Server
+java Client
+~~~~
