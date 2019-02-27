@@ -21,5 +21,5 @@ rmiregistry
 java Server
 java Client
 ~~~~
-### Screenshoot
+## Screenshoot
 ![alt text](/screenshoot/client.png)
