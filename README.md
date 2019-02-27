@@ -9,7 +9,7 @@ Client send `insertBook(Book book)` to add a book.
     * Book getBook(int bookId)
     * void insertBook(Book book)
 - class BookShelf implement BookShelfInterface
-- class Main
+- class Server
 ### Client
 - interface BookShelfInterface
-- class Main
+- class Client
