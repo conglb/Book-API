@@ -1,7 +1,7 @@
 # Book API
 ## Requirement
-Client send `getBook(int bookId)`to get book satisfy id = bookId.
-Client send `insertBook(Book book)` to add a book.
+- Client send `getBook(int bookId)`to get book satisfy id = bookId.
+- Client send `insertBook(Book book)` to add a book.
 ## Design
 ### Server
 - class Book extends Serializable
@@ -21,3 +21,5 @@ rmiregistry
 java Server
 java Client
 ~~~~
+### Screenshoot
+![alt text](/screenshoot/client.png)

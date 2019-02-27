@@ -2,13 +2,15 @@ import java.io.Serializable;
 
 public class Book implements Serializable {
 
+    // serial version uid
     private static final long serialVersionUID = 1193049580361470L;
 
+    // book id
     private int id;
+    // book information
     private String title, author, ISBN;
 
-    public Book() {}
-
+    // constructor
     public Book(int id, String title, String author, String ISBN) {
         this.id = id;
         this.title = title;
@@ -48,8 +50,9 @@ public class Book implements Serializable {
         this.ISBN = ISBN;
     }
 
+    // return entire book information
     public String toString() {
-        return "Id: " + getId() + '\n' + "Title: " + getTitle() + '\n' + getAuthor()
+        return "Id: " + getId() + '\n' + "Title: " + getTitle() + '\n' + "Author: " +  getAuthor()
         + '\n' + "ISBN: " + getISBN() + '\n';
      }
 }
