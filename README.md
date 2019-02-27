@@ -1,3 +1,4 @@
 # Book API
 ## Requirement
-Client send `getBook(bookId)`to get book satisfy id = bookId
+Client send `getBook(int bookId)`to get book satisfy id = bookId.
+Client send `insertBook(Book book)` to add a book.
